@@ -3,8 +3,8 @@ package functional.programming
 import scala.annotation.tailrec
 
 /**
- * Created by sonia on 23/03/2016.
  * Exercise 2.2
+ * Created by sonia on 23/03/2016.
  */
 object ArrayUtils {
   def isSorted[A](as: Array[A], ordered: (A, A) => Boolean): Boolean = {

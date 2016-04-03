@@ -3,8 +3,8 @@ package functional.programming
 import scala.annotation.tailrec
 
 /**
- * Created by sonia on 22/03/2016.
  * Exercise 2.1
+ * Created by sonia on 22/03/2016.
  */
 object FibonacciCalculator {
   def fib(n: Int): Int = {

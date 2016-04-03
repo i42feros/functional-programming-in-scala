@@ -11,9 +11,17 @@ class CurryOperatorSpec extends WordSpec with Matchers {
 
     "curry" in {
       def multiply(a: Int, b: Int): Int = a * b
-      def multiplyCurry: (Int) => (Int) => Int =  CurryOperator.curry(multiply)
+      def multiplyCurry: (Int) => (Int) => Int = CurryOperator.curry(multiply)
 
       multiplyCurry(2)(3) should be(multiply(2, 3))
+    }
+
+    "uncurry" in {
+      def multiply(a: Int, b: Int): Int = a * b
+      def multiplyCurry: (Int) => (Int) => Int = CurryOperator.curry(multiply)
+      def multiplyUnCurry: (Int, Int) => Int = CurryOperator.uncurry(multiplyCurry)
+
+      multiplyUnCurry(2,3) should be(multiply(2, 3))
     }
 
   }

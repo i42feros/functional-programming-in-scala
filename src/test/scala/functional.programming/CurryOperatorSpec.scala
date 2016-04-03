@@ -24,5 +24,12 @@ class CurryOperatorSpec extends WordSpec with Matchers {
       multiplyUnCurry(2,3) should be(multiply(2, 3))
     }
 
+    "compose" in {
+      def calculateSin(b: Double): Double = Math.sin(b)
+      def productOfTwo(a: Double): Double = a * 2
+      def sinOfProduct = CurryOperator.compose(calculateSin, productOfTwo)
+
+      sinOfProduct(3) should be(calculateSin(3 * 2))
+    }
   }
 }

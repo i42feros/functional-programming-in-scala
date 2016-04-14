@@ -1,4 +1,4 @@
-package functional.programming
+package functional.programming.gettingstarted
 
 import scala.annotation.tailrec
 

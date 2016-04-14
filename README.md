@@ -1,7 +1,7 @@
 # functional-programming-in-scala
 
 Exercises: 
- - Chapter 2
+ - Chapter 2: Package: gettingstarted
   - Exercise 2.1
 
   - Exercise 2.2

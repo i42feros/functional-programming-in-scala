@@ -2,9 +2,11 @@
 
 Exercises: 
  - Chapter 2: Package: gettingstarted
-  - Exercise 2.1
+  - Exercise 2.1:
+    Write a function to compute the nth fibonacci number
 
-  - Exercise 2.2
+  - Exercise 2.2:
+    Implement a polymorphic function to check whether an `Array[A]` is sorted
 
   - Exercise 2.3:
     Let's look at another example, currying, which converts a function f of two arguments into a function of one argument

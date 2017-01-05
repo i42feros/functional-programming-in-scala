@@ -1,5 +1,7 @@
 # functional-programming-in-scala
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/82d69ab70ba74e3b891722bcbf19a677)](https://www.codacy.com/app/i42feros/functional-programming-in-scala?utm_source=github.com&utm_medium=referral&utm_content=i42feros/functional-programming-in-scala&utm_campaign=badger)
+
 Exercises: 
  - Chapter 2: Package: gettingstarted
   - Exercise 2.1:
